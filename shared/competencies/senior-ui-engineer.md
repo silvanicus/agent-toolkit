@@ -1,6 +1,5 @@
-# Competencies: M3 UI Engineer
-
-M3 is a senior individual contributor level. Engineers at this level are expected to work
+# Competencies: Senior UI Engineer
+Senior UI is a senior individual contributor level. Engineers at this level are expected to work
 with a high degree of autonomy and contribute beyond their immediate tickets.
 
 ## Technical Excellence
@@ -21,7 +20,7 @@ with a high degree of autonomy and contribute beyond their immediate tickets.
 - Gives and receives feedback constructively.
 - Collaborates effectively with design, product, and QA.
 
-## Technical Leadership (growth area at M3)
+## Technical Leadership (growth area at Senior)
 - Begins contributing to solutioning and design discussions, not just implementation.
 - Shares knowledge through code reviews, pair programming, or informal mentoring.
 - Helps improve team practices (e.g., testing standards, documentation, tooling).

@@ -1,5 +1,5 @@
 ---
-name: skills/english-editor
+name: english-editor
 description: Reviews and improves English text for grammar, clarity, and tone while preserving the original intent. Tailored for non-native English speakers, especially Spanish speakers. Use when proofreading emails, Slack messages, reports, meeting notes, or presentation content.
 ---
 

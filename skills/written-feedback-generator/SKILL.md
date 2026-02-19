@@ -1,6 +1,6 @@
 ---
 name: written-feedback-generator
-description: Generates constructive feedback for work products, designs, or deliverables. Use when providing structured critique or review comments.
+description: Structures written performance or peer feedback for colleagues and direct reports using the SBI model (Situation → Behavior → Impact). Use when writing review comments in tools like Lattice or Workday, or drafting feedback in email or Slack.
 ---
 
 # Overview
@@ -24,10 +24,10 @@ Follow these steps in order every time this skill is invoked:
 
 ## Step 1 — Identify the role
 Extract the role from the user's prompt. Normalize it to a filename-friendly slug
-(e.g., "M3 UI Engineering" → `senior-ui-engineer`).
+(e.g., "Senior UI Engineering" → `senior-ui-engineer`).
 
 ## Step 2 — Load the competency table
-Look for a matching file in `skills/written-feedback-generator/competencies/`.
+Look for a matching file in `shared/competencies/`.
 
 - **If found**: Read the file and keep the competencies in mind for the rest of the session.
   They define what is expected at that level and should anchor your analysis and questions.
