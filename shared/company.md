@@ -1,25 +1,87 @@
 # Company
-The following context is always active and should inform question framing, evaluation criteria,
-and what "good" looks like for any candidate:
 
-**Organization type**: Digital agency. Engineers work across multiple client accounts, often
-simultaneously. The ability to context-switch, adapt to different client cultures, and manage
-ambiguity is as important as technical skill.
+This file provides general context about the organization.
 
-**Team structure**: Engineers are staffed to client projects, often working cross-functionally
-with design, product, and strategy disciplines.
+---
 
-**What this environment rewards**:
-- Proactive communication and early risk surfacing.
-- Ownership of outcomes, not just tasks.
-- The ability to consult and advise clients — not just execute.
-- Curiosity and continuous learning, especially given rapid technology change.
-- Collaboration across disciplines and geographies.
+## Identity
 
-**What this environment is hard on**:
-- Engineers who need heavy direction or can't work in ambiguity.
-- Those who silo themselves within their craft.
-- People who treat quality as someone else's problem.
+**Name**: _[Organization name]_
 
-This context should influence both question selection and the "what good looks like" guidance
-in the generated guide.
+**Type**: _[e.g. Digital agency / Product company / Consultancy / Non-profit / Startup / Enterprise]_
+
+**Own product**: _[Yes / No / Both — brief description if yes]_
+
+**Industry / domain**: _[e.g. E-commerce, FinTech, HealthTech, Media, SaaS, Government]_
+
+**Mission**: _[One or two sentences on why the organization exists.]_
+
+---
+
+## Size & Structure
+
+**Total headcount**: _[e.g. ~50 people / 200–300 / 10-person team]_
+
+**Engineering team size**: _[e.g. 8 engineers / 30-person engineering org]_
+
+**Team structure**: _[e.g. Feature squads / Project-based staffing / Functional departments]_
+
+**Reporting structure**: _[e.g. Engineers report to an Engineering Manager / CTO / Chapter Lead]_
+
+---
+
+## Geography
+
+**Headquarters**: _[City, Country]_
+
+**Presence**: _[e.g. Fully US-based / US + Latin America / Global / Remote-first across timezones]_
+
+**Key offices or regions**: _[List if relevant]_
+
+**Working model**: _[e.g. Fully remote / Hybrid / Co-located]_
+
+---
+
+## Clients & Market
+
+**Who they serve**: _[e.g. Mid-market US brands / Enterprise clients globally / SMBs in Latin America]_
+
+**Client model**: _[e.g. Long-term retainers / Project-based engagements / Product subscriptions]_
+
+**Notable industries served**: _[e.g. Retail, Finance, Healthcare — list if an agency or consultancy]_
+
+---
+
+## Culture & Ways of Working
+
+**What the environment rewards**:
+- _[e.g. Proactive communication and early risk surfacing]_
+- _[e.g. Ownership of outcomes, not just tasks]_
+- _[e.g. Ability to work across disciplines and adapt to different client contexts]_
+
+**How teams collaborate**: _[e.g. Cross-functional squads with design, product, and engineering /
+Async-first with weekly syncs / Embedded in client teams]_
+
+**Primary tools**: _[e.g. Slack, Notion, Jira, GitHub, Figma]_
+
+---
+
+## Tech Snapshot
+
+_Optional — include if skills or agents need to reference the stack._
+
+**Languages**: _[e.g. TypeScript, Python]_
+
+**Key frameworks / platforms**: _[e.g. React, Next.js, AWS, Node.js]_
+
+**Notable practices**: _[e.g. Trunk-based development, ADRs, design systems]_
+
+---
+
+## Glossary
+
+_Optional — list any internal terms or shorthand agents should recognize._
+
+| Term | Meaning |
+|------|---------|
+| _[Term]_ | _[Definition]_ |
