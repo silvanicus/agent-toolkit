@@ -124,6 +124,10 @@ skip directly to Step 6.
 Using all collected information, produce the interview guide following the
 Framework and Output Format sections below.
 
+Once the guide is complete, export it as a **PDF file** and share it with the user.
+Name the file using the pattern: `interview-guide-[role-slug]-[YYYY-MM-DD].pdf`
+(e.g., `interview-guide-senior-ui-engineer-2025-03-15.pdf`).
+
 ---
 
 # Interview Question Framework
