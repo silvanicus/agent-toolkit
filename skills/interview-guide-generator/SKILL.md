@@ -38,7 +38,7 @@ Follow these steps in order every time this skill is invoked.
 
 ## Step 1 — Extract Role and Level
 Identify the role and level from the user's prompt. Normalize to a standard label:
-- Examples: `Senior Software Engineer`, `QA Analyst`
+- Examples: `Senior frontend engineer`, `junior QA analyst`
 - **If no role is provided**: Do not assume. Ask the user to specify the role before continuing.
 - **If no level is provided**: Do not assume. Ask the user to specify the level (e.g., Junior, Mid, Senior, Staff) before continuing.
 - **If the level is ambiguous** (e.g., user says "developer"): Ask for clarification before continuing.
