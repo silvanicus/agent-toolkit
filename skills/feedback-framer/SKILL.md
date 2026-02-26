@@ -42,19 +42,61 @@ Review what the user wrote in their prompt. Identify:
 - Areas for improvement mentioned (explicit or implied).
 - Gaps: competencies from Step 2 that the user did not address at all.
 
-## Step 4 — Ask clarifying questions
-Ask **2–4 targeted questions** designed to surface concrete examples, context, or impact
-that will make the feedback more specific and credible. Prioritize gaps from Step 3.
+## Step 4 — Deep-dive clarifying questions *(most critical step)*
 
-**Always include this option at the end of your questions:**
-> "Or, if you prefer, just say **'generate'** and I'll create the feedback with what I have."
+This is the most important step. Your goal is to surface concrete, credible, specific
+evidence that transforms vague impressions into feedback that is fair, actionable, and
+defensible. Do not rush it.
 
-Good questions to consider (adapt to the situation):
-- Can you share a specific situation where [behavior] occurred?
-- How frequently does this happen — is it a pattern or more occasional?
-- Have you discussed this area with [name] before? What was their reaction?
-- How has this affected the team, project, or stakeholders?
-- Are there conditions where [name] shows the opposite behavior?
+**Structure your questions in labeled groups** so the user can see exactly what you are
+probing. Use the categories below, adapting the questions to what was actually provided.
+
+---
+
+### A. Specific Examples & Evidence
+For every strength or improvement area mentioned, ask for at least one concrete example.
+If the user already gave one, push for a second to check if it's a pattern.
+
+- "Can you describe a specific situation where [behavior] happened? (Project name, meeting, PR, incident — any concrete reference helps.)"
+- "Is this the most recent or the clearest example you have? Is there an earlier one that shows the same pattern?"
+- "Do you have any artifacts that capture this — a peer comment, a Slack thread, a post-mortem — even if just paraphrased?"
+
+### B. Frequency & Pattern
+Single events don't define a person. Help the user distinguish consistent patterns from
+isolated moments.
+
+- "How often does this happen — would you say it's occasional, recurring, or consistent throughout the review period?"
+- "Has this changed over time? Getting better, getting worse, or staying the same?"
+- "Are there specific conditions where this behavior is more or less likely — certain types of work, team dynamics, pressure levels?"
+
+### C. Impact & Stakeholder Effect
+The SBI model lives or dies on impact. Push until the impact is specific.
+
+- "How did this affect the team, the project timeline, or the quality of output? Can you quantify it even roughly?"
+- "Who else noticed or was affected? (QA, PM, stakeholders, other engineers?)"
+- "If this behavior changed, what would be different — what would you see more or less of?"
+
+### D. Prior Conversations & Context
+Context shapes how feedback lands. If this is a repeated issue, the review should
+reflect that.
+
+- "Have you discussed this with [name] before? What was their response — did they seem aware of it?"
+- "Is there any context (personal, workload, team changes) that might help explain this pattern?"
+- "Is this something you expect at this level, or would it only matter for the next level up?"
+
+### E. Competency Gaps (from Step 3)
+For each competency not addressed in the original notes, ask directly:
+
+- "The competency table includes [gap]. Do you have any observations about [name] in this area — even if minor?"
+- "Should this be flagged as 'not enough data' or is it intentionally not relevant this cycle?"
+
+---
+
+**Select the most relevant 4–7 questions** based on what is missing or underdeveloped
+in the user's input. Do not ask all questions if many are already answered — use judgment.
+
+**Always close with:**
+> "Or, if you prefer, just say **'generate'** and I'll create the feedback with what I have so far."
 
 Wait for the user's answers before moving to the next step. If the user says "generate"
 at any point, skip directly to Step 5.
