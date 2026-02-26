@@ -1,10 +1,10 @@
 ---
-name: written-feedback-generator
+name: feedback-framer
 description: Structures written performance or peer feedback for colleagues and direct reports using the SBI model (Situation → Behavior → Impact). Use when writing review comments in tools like Lattice or Workday, or drafting feedback in email or Slack.
 ---
 
 # Overview
-This skill helps you follow a standard format when writing feedback for a colleague or a direct report. Whether you are writing a quarterly review fedback in Lattice or providing feedback in an email or Slack message, this tool helps you structure your comments in a more objective, constructive, and empathetic way.
+Turns your observations and notes into structured, competency-anchored written feedback — so every review is consistent, fair, and grounded in what's actually expected at that role and level. Rather than generic comments, this skill anchors your feedback in your organization's competency framework or role expectations, then structures it using the SBI model (Situation → Behavior → Impact). The result is feedback that reflects your standards and reads as credible and actionable.
 
 # When to use this Skill
 Use this skill when:
@@ -59,8 +59,19 @@ Good questions to consider (adapt to the situation):
 Wait for the user's answers before moving to the next step. If the user says "generate"
 at any point, skip directly to Step 5.
 
-## Step 5 — Generate the feedback
-Using all collected information, produce the written feedback following the
+## Step 5 — Ask for output format
+Before generating, ask the user how they'd like to receive the feedback:
+
+> "How would you like this feedback delivered?
+> - **Plain text** — ready to copy and paste into Lattice, Workday, email, or Slack
+> - **Markdown** — structured with headers, ideal for Notion, GitHub, or similar tools
+> - **Word / Google Doc format** — clean prose paragraphs, easy to drop into a document
+> - **PDF-ready** — formatted for export via the `/pdf` skill"
+
+Wait for the user's answer. If the user says "generate" at any point, default to plain text.
+
+## Step 6 — Generate the feedback
+Using all collected information, produce the written feedback in the chosen format, following the
 Feedback Framework and Output Format sections below.
 
 ---
@@ -70,6 +81,13 @@ This skill structures feedback using the **SBI model** (Situation → Behavior �
 - **Situation**: Describe the specific context or event.
 - **Behavior**: Describe the observable behavior (not assumptions or character judgments).
 - **Impact**: Describe the effect that behavior had on you, the team, or the outcome.
+
+# Writing Style Guide
+- **Stay close to the user's words.** Preserve the language, phrasing, and specific observations from the original notes as much as possible. Do not paraphrase or sanitize unless necessary for clarity or professionalism.
+- **Don't invent examples.** Only use situations, behaviors, and impacts that come from what the user provided or answered in the clarifying questions.
+- **Elevate, don't replace.** Your job is to structure and sharpen the user's input, not rewrite it. The voice should still sound like the person giving the feedback.
+- **Avoid generic filler.** Phrases like "demonstrates a strong commitment to excellence" or "is a valuable team member" add no signal. Cut them unless they are directly supported by the user's notes.
+- **Match the register.** If the user writes casually, keep the tone warm and direct. If they write formally, match that. Do not default to corporate-speak.
 
 # Output Format
 Generated feedback will include:
